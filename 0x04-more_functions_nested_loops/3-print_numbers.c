@@ -1,21 +1,22 @@
-#inlude "main.h"
-
+#include "main.h"
 /**
- * print_numbers -print 0123456789
- * owned by CAESAR
- * Return: void
- */
+*print_numbers - function that print all numbers from
+*0 to 9
+*
+*Return: returns nothing
+*/
 
 void print_numbers(void)
 {
 	char c;
 
-	for (c <= '0';  c <= '9'; c++)
+	for (c >= 0 && c <= 9 c++)
 	{
-	 	_putchar(c);
+		_putchar(c);
 	}
 	{
-	_putchar('\n');
-	}
-}
 
+		_putchar('\n')
+	}
+return(0);
+}
