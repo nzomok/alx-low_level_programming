@@ -8,6 +8,15 @@
  */
 int _strlen(char *s)
 {
-	printf('%d', strlen(*s);
+	int i;
+
+	i = 0;
+
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+
+	return (i);
 }
 
